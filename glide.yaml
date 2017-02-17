@@ -1,0 +1,13 @@
+package: .
+import:
+- package: github.com/stretchr/testify
+  version: ^1.1.4
+  subpackages:
+  - mock
+- package: gopkg.in/alecthomas/kingpin.v2
+  version: ^2.2.3
+testImport:
+- package: github.com/jondot/go-cli-starter
+  subpackages:
+  - mocks
+- package: gopkg.in/check.v1
